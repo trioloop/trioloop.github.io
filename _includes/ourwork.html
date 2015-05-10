@@ -1,18 +1,51 @@
     <!-- Download Section -->
     <section id="ourwork" class="content-section text-center">
-        <div class="download-section">
+        <div class="ourwork-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Trioloop team members worked with</h2>
-                    <ul>
-                      <li>Bell Canada</li>
-                      <li>PG&amp;E</li>
-                      <li>Canada Post</li>
-                      <li>TD Canada Trust</li>
-                      <li>Hong Kong Electric</li>
-                      <li>Baptist University</li>
-                      <li>British Telecom</li>
-                    </ul>
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="{{ '/img/canadapost.png' | prepend: site.baseurl }}" alt="Canada Post">
+                                <div class="carousel-caption">
+                                    Canada Post - Consolidate of customer profile data into SAP CRM
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ '/img/tdcanadatrust.png' | prepend: site.baseurl }}" alt="TD CanadaTrust">
+                                <div class="carousel-caption">
+                                    TD CanadaTrust - Small business lending system to reduce loan application turn
+                                    around time from months to an average of 2 weeks
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ '/img/pge.png' | prepend: site.baseurl }}" alt="TD CanadaTrust">
+                                <div class="carousel-caption">
+                                    PGE - Business transformation project. Build out Service Oriented Architecture
+                                    to enable Business Process Modelling of various PG&E processes
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">&nbsp;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">&nbsp;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
