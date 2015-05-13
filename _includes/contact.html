@@ -1,12 +1,24 @@
 <!-- Contact Section -->
 <section id="contact" class="container content-section text-center">
-    <a id="contact-thankyou"/>
-
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
 
-            <p>
+            <div id="contact-thankyou" class="alert alert-success" role="alert" style="display: none">
+                <strong>Thank you!</strong> Your message is submitted. We will get back to you shortly.
+            </div>
+            <script>
+                (function () {
+                    if (window.location.hash && window.location.hash.substring(1) == "contact-thankyou") {
+                        var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+                        $('#contact-thankyou').show();
+                        $('#contact-thankyou').fadeIn();
+                    } else {
+                        $('#contact-thankyou').hide();
+                    }
+                })();
+            </script>
+
 
             <form action="//formspree.io/{{ site.email }}" method="POST">
                 <div class="input-group input-group-lg">
@@ -34,7 +46,7 @@
                 </div>
                 <input type="hidden" name="_next" value="//trioloop.com/#contact-thankyou"/>
             </form>
-            </p>
+
             <ul class="list-inline banner-social-buttons">
                 {% for network in site.social %}
                 <li>
