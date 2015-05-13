@@ -1,20 +1,21 @@
 <!-- Contact Section -->
+<a id="contact-thank" />
 <section id="contact" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
 
-            <div id="contact-thankyou" class="alert alert-success" role="alert" style="display: none">
+            <div id="contact-thankyou-message" class="alert alert-success" role="alert" style="display: none">
                 <strong>Thank you!</strong> Your message is submitted. We will get back to you shortly.
             </div>
             <script>
                 (function () {
                     if (window.location.hash && window.location.hash.substring(1) == "contact-thankyou") {
                         var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
-                        $('#contact-thankyou').show();
-                        $('#contact-thankyou').fadeIn();
+                        $('#contact-thankyou-message').show();
+                        $('#contact-thankyou-message').fadeIn();
                     } else {
-                        $('#contact-thankyou').hide();
+                        $('#contact-thankyou-message').hide();
                     }
                 })();
             </script>
