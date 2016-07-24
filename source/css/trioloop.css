@@ -1,0 +1,1064 @@
+/* $btn */
+/* / $btn */
+/* line 80, ../sass/trioloop.scss */
+body {
+  font: 16px "Montserrat", CenturyGothic, AppleGothic, sans-serif;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* line 86, ../sass/trioloop.scss */
+table, .table {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+/* line 99, ../sass/trioloop.scss */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin: 0;
+}
+
+/* line 110, ../sass/trioloop.scss */
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h4 small,
+.h4 small {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* line 115, ../sass/trioloop.scss */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+  color: #999999;
+}
+
+/* line 120, ../sass/trioloop.scss */
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+/* line 124, ../sass/trioloop.scss */
+h2 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 130, ../sass/trioloop.scss */
+h3 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+h3.signature {
+	font-family: 'Mr Dafoe', Helvetica, sans-serif;
+  	font-size: 24px;
+}
+
+/* line 139, ../sass/trioloop.scss */
+.row.no-gutters > [class^="col-"] .form-control,
+.row.no-gutters > [class*=" col-"] .form-control {
+  border-left: none;
+  border-right: none;
+  border-right: 1px solid #cccccc;
+  outline: none;
+}
+
+/* line 147, ../sass/trioloop.scss */
+.row.no-gutters > [class^="col-"]:first-child .form-control,
+.row.no-gutters > [class*=" col-"]:first-child .form-control {
+  border-left: 1px solid #cccccc;
+}
+
+/* line 152, ../sass/trioloop.scss */
+.row.no-gutters > [class^="col-"]:last-child .form-control,
+.row.no-gutters > [class*=" col-"]:last-child .form-control {
+  border-right: 1px solid #cccccc;
+}
+
+/* line 157, ../sass/trioloop.scss */
+.text-mid {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* line 162, ../sass/trioloop.scss */
+.text-light {
+  font-weight: 400;
+}
+
+/* line 165, ../sass/trioloop.scss */
+.text-bold {
+  font-weight: 700;
+}
+
+/* line 168, ../sass/trioloop.scss */
+.text-highlight {
+  color: #ff6600;
+}
+
+/* line 171, ../sass/trioloop.scss */
+.text-grey {
+  color: color-grey-75;
+}
+
+/* line 175, ../sass/trioloop.scss */
+.text-orange {
+  color: #fbab5d;
+}
+
+/* line 178, ../sass/trioloop.scss */
+.text-green {
+  color: #53bb89;
+}
+
+/* line 181, ../sass/trioloop.scss */
+.text-blue {
+  color: #60b4ca;
+}
+
+/* line 185, ../sass/trioloop.scss */
+.text-remark {
+  font-size: 12px;
+  color: #999999;
+}
+
+/* line 190, ../sass/trioloop.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 196, ../sass/trioloop.scss */
+.btn-primary {
+  background-color: #E96840;
+  border: none;
+}
+
+/* line 200, ../sass/trioloop.scss */
+.btn-primary:hover {
+  background-color: #2D2D2D;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+/* line 209, ../sass/trioloop.scss */
+.btn-custom,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover {
+  background-color: #E96840;
+  border-color: #E96840;
+}
+
+/* line 214, ../sass/trioloop.scss */
+.btn-trioloop-primary {
+  background-color: #f88817;
+  color: white !important;
+  text-transform: none;
+  border: none;
+  padding: 10px 30px;
+}
+
+/* line 222, ../sass/trioloop.scss */
+.btn-trioloop-primary:hover {
+  background-color: #df760c;
+  border: none;
+}
+
+/* line 227, ../sass/trioloop.scss */
+.btn-trioloop-secondary {
+  background-color: #64c295;
+  color: white !important;
+  text-transform: none;
+  border: none;
+  padding: 10px 30px;
+}
+
+/* line 235, ../sass/trioloop.scss */
+.btn-trioloop-secondary:hover {
+  background-color: #419b70;
+  border: none;
+}
+
+/* line 240, ../sass/trioloop.scss */
+a, a:visited {
+  color: #f88817;
+  text-decoration: none;
+}
+
+/* line 248, ../sass/trioloop.scss */
+a:focus,
+a:active,
+a:hover {
+  color: #df760c;
+}
+
+/* line 251, ../sass/trioloop.scss */
+a, a:visited, a:focus, a:active, a:hover {
+  outline: 0 none !important;
+  text-decoration: none;
+}
+
+/* line 256, ../sass/trioloop.scss */
+.nav li a {
+  text-transform: none;
+}
+
+/* line 262, ../sass/trioloop.scss */
+.nav li a:hover,
+.nav li:hover,
+.nav li.active,
+.nav li a:focus {
+  background: none;
+}
+
+/* line 265, ../sass/trioloop.scss */
+.nav li.active a {
+  color: #666;
+  /*
+  border-bottom: 3px $color-orange solid;
+  */
+}
+
+/* line 272, ../sass/trioloop.scss */
+li.no-link a {
+  padding: 15px;
+  color: #666666;
+  cursor: default;
+}
+
+/* line 277, ../sass/trioloop.scss */
+li.no-link a:hover {
+  background: #fff;
+  color: #666666;
+}
+
+/* line 282, ../sass/trioloop.scss */
+hr.trioloop-hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #666666;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 291, ../sass/trioloop.scss */
+.nav-end-mid {
+  margin: 50px 15px;
+}
+
+/* line 295, ../sass/trioloop.scss */
+.div-overflow {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 300, ../sass/trioloop.scss */
+.social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  color: #fbab5d;
+  font-size: 10px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* line 313, ../sass/trioloop.scss */
+.social-icon:hover {
+  background: #fbab5d;
+  color: #fff;
+}
+
+/* line 318, ../sass/trioloop.scss */
+.text-nowrap {
+  white-space: nowrap;
+}
+
+/* line 322, ../sass/trioloop.scss */
+.navbar-toggle .icon-bar {
+  background: #fbab5d;
+}
+
+/* line 326, ../sass/trioloop.scss */
+p {
+  margin-bottom: 20px;
+}
+
+/* line 329, ../sass/trioloop.scss */
+.input {
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 333, ../sass/trioloop.scss */
+.form-control {
+  color: #000;
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  transition: none;
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+/* line 345, ../sass/trioloop.scss */
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px #df760c solid;
+}
+
+/* line 349, ../sass/trioloop.scss */
+.custom-labels {
+  border-bottom: 1px solid #fbab5d;
+}
+
+/* line 353, ../sass/trioloop.scss */
+.navbar {
+  background-color: #fff;
+  opacity: 0.9;
+  font-size: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: #ddd 1px solid;
+}
+
+/* line 363, ../sass/trioloop.scss */
+.navbar-brand {
+  margin: 0px;
+  padding: 10px 15px;
+  width: 150px;
+  height: 41px;
+}
+
+/* line 369, ../sass/trioloop.scss */
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 375, ../sass/trioloop.scss */
+section {
+  padding: 100px 0;
+}
+
+/* line 379, ../sass/trioloop.scss */
+.section-heading {
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+/* line 387, ../sass/trioloop.scss */
+.heading-why-trioloop,
+.heading-trioloop-news,
+.heading-trioloop-showcase {
+  margin-top: 30px;
+}
+
+/* line 391, ../sass/trioloop.scss */
+#home {
+  width: 100%;
+  height: 600px;
+  background: white url("../images/bg-home-intro.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 400, ../sass/trioloop.scss */
+.ringu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+
+/* line 409, ../sass/trioloop.scss */
+.ringu {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  background: #fff;
+  opacity: 0.3;
+  /*border: 3px #333 solid;
+  background: #fff;
+  opacity: 0;
+  */
+}
+
+/* line 427, ../sass/trioloop.scss */
+.ringu.green {
+  /*border-color: $color-green;
+  
+  
+  opacity: 0;
+  */
+}
+
+/* line 434, ../sass/trioloop.scss */
+.ringu.blue {
+  /*border-color: $color-blue;
+  
+  
+  opacity: 0;
+  */
+}
+
+/* line 441, ../sass/trioloop.scss */
+.ringu.orange {
+  /*border-color: $color-orange;
+  
+  
+  opacity: 0;
+  */
+}
+
+/* line 449, ../sass/trioloop.scss */
+#home-intro {
+  width: 100%;
+  max-width: 800px;
+  position: absolute;
+  top: 50%;
+  /*
+  left: 50%;
+  margin-left: -250px;
+  */
+  margin-top: -240px;
+  padding: 80px;
+}
+
+/* line 462, ../sass/trioloop.scss */
+#home-intro h1 {
+  color: #000;
+}
+
+/* line 465, ../sass/trioloop.scss */
+.home-intro-keywords {
+  /*padding: 0 15px;*/
+  padding-right: 15px;
+}
+
+/* line 472, ../sass/trioloop.scss */
+#about-trioloop,
+.news-intro,
+.show-case-intro {
+  background: #f3f3f3;
+  padding-top: 0;
+  background: #f3f3f3;
+  background: -moz-linear-gradient(top, #f3f3f3 0%, white 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f3f3f3), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, #f3f3f3 0%, white 100%);
+  background: -o-linear-gradient(top, #f3f3f3 0%, white 100%);
+  background: -ms-linear-gradient(top, #f3f3f3 0%, white 100%);
+  background: linear-gradient(to bottom, #f3f3f3 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#ffffff', GradientType=0 );
+  border-bottom: 1px #999 solid;
+}
+
+/* line 489, ../sass/trioloop.scss */
+.news-intro,
+.show-case-intro {
+  border-bottom: none;
+}
+
+/* line 493, ../sass/trioloop.scss */
+.intro-row-separator {
+  width: 100%;
+  margin-top: -80px;
+  z-index: 30;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 501, ../sass/trioloop.scss */
+.intro-row-separator-img {
+  width: 100%;
+}
+
+/* line 509, ../sass/trioloop.scss */
+#services {
+  /*
+  	padding-top: 60px;
+  	*/
+}
+
+/* line 516, ../sass/trioloop.scss */
+.section-heading-service {
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background: url("../images/service-heading-bg-top.gif") no-repeat center bottom;
+}
+
+/* line 522, ../sass/trioloop.scss */
+ul.service-list-wrap {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 526, ../sass/trioloop.scss */
+ul.service-list-wrap li {
+  list-style: none;
+}
+
+/* line 530, ../sass/trioloop.scss */
+.service-item-detail {
+  border: 1px #ddd solid;
+  /*padding: 30px;*/
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+/* line 538, ../sass/trioloop.scss */
+.service-item-detail-wrap {
+  background: url("../images/service-bg-graphic-seed-lg-end.jpg") no-repeat center bottom;
+}
+
+/* line 543, ../sass/trioloop.scss */
+.service-item-detail-content {
+  display: block;
+  padding: 30px;
+}
+
+/* line 550, ../sass/trioloop.scss */
+.service-item-img-wrap-CSD,
+.service-item-img-wrap-DI,
+.service-item-img-wrap-CT {
+  width: 100%;
+  height: 100px;
+}
+
+/* line 555, ../sass/trioloop.scss */
+.service-item-img-wrap-CSD {
+  background: url("../images/service-custom-software-development-bg.jpg") no-repeat center center;
+  background-size: 70%;
+}
+
+/* line 560, ../sass/trioloop.scss */
+.service-item-img-wrap-DI {
+  background: url("../images/service-digital-innovative-bg.gif") no-repeat center center;
+  /*
+  background-size: 80%;
+  */
+}
+
+/* line 567, ../sass/trioloop.scss */
+.service-item-img-wrap-CT {
+  background: url("../images/service-consulting-training-bg.jpg") no-repeat -10px 0px;
+}
+
+/* line 572, ../sass/trioloop.scss */
+.service-item-img {
+  display: block;
+  position: absolute;
+}
+
+/* line 576, ../sass/trioloop.scss */
+.service-item-img-wrap-CSD .service-item-img {
+  top: -50px;
+  left: 50%;
+  margin-left: -87px;
+}
+
+/* line 581, ../sass/trioloop.scss */
+.service-item-img-CSD {
+  width: 178px;
+  height: 78px;
+}
+
+/* line 585, ../sass/trioloop.scss */
+.service-item-img-wrap-DI .service-item-img {
+  top: -80px;
+  left: 50%;
+  margin-left: -109px;
+}
+
+/* line 590, ../sass/trioloop.scss */
+.service-item-img-DI {
+  width: 218px;
+  height: 189px;
+}
+
+/* line 594, ../sass/trioloop.scss */
+.service-item-img-wrap-CT .service-item-img {
+  top: -80px;
+  right: 30px;
+}
+
+/* line 599, ../sass/trioloop.scss */
+.service-item-img-CT {
+  width: 101px;
+  height: 145px;
+}
+
+/* line 604, ../sass/trioloop.scss */
+.service-row-separator {
+  /*
+  	width: 100%;
+  	*/
+  height: 202px;
+  background: url("../images/service-bg-graphic-seed-lg.jpg") no-repeat center center;
+}
+
+/* line 615, ../sass/trioloop.scss */
+#news {
+  background: url("../images/bg-news.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 620, ../sass/trioloop.scss */
+.news-nav-item {
+  width: 100%;
+  min-height: 330px;
+  background: #eee;
+  margin-bottom: 30px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+/* line 632, ../sass/trioloop.scss */
+.news-nav-item.no-img {
+  background: #eeeeee url("../images/news-nav-item-bg-default.gif") no-repeat center center;
+}
+
+/* line 635, ../sass/trioloop.scss */
+.news-nav-item:hover {
+  -webkit-box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* line 640, ../sass/trioloop.scss */
+.news-nav-item-img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+/* line 646, ../sass/trioloop.scss */
+.news-nav-item-text {
+  padding: 15px;
+}
+
+/* line 650, ../sass/trioloop.scss */
+#news-header-intro {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 80px;
+}
+
+/* line 657, ../sass/trioloop.scss */
+#showcase {
+  background: url("../images/bg-casestudy-worn_dots.png");
+}
+
+/* line 662, ../sass/trioloop.scss */
+.home-case-img-main {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+/* line 675, ../sass/trioloop.scss */
+.home-case-img-main.active {
+  -webkit-box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* line 681, ../sass/trioloop.scss */
+.home-case-content {
+  padding: 30px;
+  text-align: center;
+}
+
+/* line 688, ../sass/trioloop.scss */
+.showcase-item.active {
+  -webkit-box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 39px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* line 694, ../sass/trioloop.scss */
+.showcase .row {
+  margin-bottom: 30px;
+}
+
+/* line 697, ../sass/trioloop.scss */
+.showcase-reset-margin .row {
+  margin-bottom: 0px;
+}
+
+/* line 701, ../sass/trioloop.scss */
+#show-case-header-intro {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 80px;
+}
+
+/* line 707, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap {
+  border-top: 1px #999999 solid;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+/* line 713, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap.orange {
+  border-top: 1px #fbab5d solid;
+}
+
+/* line 717, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap.orange h3 {
+  color: #fbab5d;
+}
+
+/* line 721, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap.green {
+  border-top: 1px #53bb89 solid;
+}
+
+/* line 725, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap.green h3 {
+  color: #53bb89;
+}
+
+/* line 729, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap.blue {
+  border-top: 1px #60b4ca solid;
+}
+
+/* line 733, ../sass/trioloop.scss */
+.showcase-COTR-content-wrap.blue h3 {
+  color: #60b4ca;
+}
+
+/* line 737, ../sass/trioloop.scss */
+.showcase-heading-testimonial {
+  background: url("../images/showcase-testimonial-heading-bg.gif") no-repeat center center;
+  padding: 15px;
+}
+
+/* line 743, ../sass/trioloop.scss */
+.animate-circle-wrap,
+.animate-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+}
+
+/* line 750, ../sass/trioloop.scss */
+.animate-circle-wrap {
+  top: -5px;
+}
+
+/* line 753, ../sass/trioloop.scss */
+.animate-circle {
+  opacity: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 2px #fbab5d solid;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+/* line 768, ../sass/trioloop.scss */
+.animate-circle.active {
+  top: -30px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+/* line 773, ../sass/trioloop.scss */
+.animate-circle.green {
+  border: 2px #53bb89 solid;
+}
+
+/* line 776, ../sass/trioloop.scss */
+.animate-circle.green.active {
+  top: 30px;
+  left: 30px;
+}
+
+/* line 780, ../sass/trioloop.scss */
+.animate-circle.blue {
+  border: 2px #60b4ca solid;
+}
+
+/* line 783, ../sass/trioloop.scss */
+.animate-circle.blue.active {
+  top: 30px;
+  left: -30px;
+}
+
+@keyframes rot {
+  /* line 790, ../sass/trioloop.scss */
+  from {
+    transform: rotate(0deg) translate(-20px) rotate(0deg);
+  }
+
+  /* line 795, ../sass/trioloop.scss */
+  to {
+    transform: rotate(360deg) translate(-20px) rotate(-360deg);
+  }
+}
+
+/* line 802, ../sass/trioloop.scss */
+.smile {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin: -20px;
+  font-size: 100px;
+  animation: rot 3s infinite linear;
+}
+
+/* line 814, ../sass/trioloop.scss */
+#contact {
+  background-color: #eee;
+}
+
+
+#contact-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 819, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD {
+    background-size: auto;
+    background-position: center top;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  /* line 827, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD .service-item-img {
+    top: 0px;
+    margin-left: -90px;
+  }
+
+  /* line 831, ../sass/trioloop.scss */
+  .service-item-detail-content-CSD {
+    padding: 30px 0;
+  }
+
+  /* line 835, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD {
+    background-size: 120%;
+    background-position: center center;
+    height: 200px;
+  }
+
+  /* line 840, ../sass/trioloop.scss */
+  .service-item-detail-wrap {
+    background: url("../images/service-bg-graphic-seed-lg-end-tablet.jpg") no-repeat center bottom;
+    background-size: 469px 153px;
+  }
+}
+@media only screen and (max-width: 975px) {
+  /* line 848, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD {
+    background-size: auto;
+    height: 150px;
+  }
+
+  /* line 854, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD .service-item-img {
+    top: -40px;
+    margin-left: -100px;
+  }
+
+  /* line 858, ../sass/trioloop.scss */
+  .service-item-detail-content-CSD {
+    padding: 30px;
+  }
+
+  /* line 861, ../sass/trioloop.scss */
+  .service-item-detail-wrap {
+    background: url("../images/service-bg-graphic-seed-lg-end.jpg") no-repeat center bottom;
+    background-size: 469px 153px;
+  }
+
+  /* line 865, ../sass/trioloop.scss */
+  .intro-row-separator {
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 874, ../sass/trioloop.scss */
+  body {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  /* line 880, ../sass/trioloop.scss */
+  h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* line 885, ../sass/trioloop.scss */
+  h2 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700 !important;
+  }
+
+  /* line 891, ../sass/trioloop.scss */
+  h3, h4 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  h3.signature{
+  	font-family: 'Mr Dafoe', Helvetica, sans-serif;
+  	font-size: 18px;
+  }
+
+  /* line 896, ../sass/trioloop.scss */
+  .text-mid {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* line 900, ../sass/trioloop.scss */
+  .navbar-brand {
+    margin-top: 10px;
+    padding: 0px 15px;
+    width: 150px;
+    height: 41px;
+  }
+
+  /* line 906, ../sass/trioloop.scss */
+  .navbar-brand img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 912, ../sass/trioloop.scss */
+  #home {
+    height: 400px;
+  }
+
+  /* line 916, ../sass/trioloop.scss */
+  #home-intro {
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    padding: 20px;
+  }
+
+  /* line 926, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD {
+    height: 150px;
+    background-size: auto;
+  }
+
+  /* line 930, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD .service-item-img {
+    margin-left: -100px;
+  }
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  /*
+    .icon{
+      background-image: url(icon@2x.png);
+      background-size: 100px 100px;
+    }
+    */
+  /* line 946, ../sass/trioloop.scss */
+  .service-row-separator {
+    background: url("../images/service-bg-graphic-seed-lg@2x.jpg") no-repeat center center;
+    background-size: 469px 202px;
+  }
+
+  /* line 950, ../sass/trioloop.scss */
+  .service-item-detail-wrap {
+    background: url("../images/service-bg-graphic-seed-lg-end@2x.jpg") no-repeat center bottom;
+    background-size: 469px 153px;
+  }
+
+  /* line 954, ../sass/trioloop.scss */
+  .service-item-img-wrap-DI {
+    background: url("../images/service-digital-innovative-bg@2x.gif") no-repeat center center;
+    background-size: 455px 135px;
+  }
+
+  /* line 959, ../sass/trioloop.scss */
+  .service-item-img-wrap-CSD {
+    background: url("../images/service-custom-software-development-bg@2x.jpg") no-repeat center center;
+    background-size: 70%;
+  }
+
+  /* line 963, ../sass/trioloop.scss */
+  .service-item-img-wrap-CT {
+    background: url("../images/service-consulting-training-bg@2x.jpg") no-repeat -10px 0px;
+    background-size: 341px 124px;
+  }
+
+  /* line 968, ../sass/trioloop.scss */
+  .section-heading-service {
+    background: url("../images/service-heading-bg-top@2x.gif") no-repeat center bottom;
+    background-size: 83px 31px;
+  }
+}
+
